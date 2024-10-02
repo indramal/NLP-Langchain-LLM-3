@@ -18,7 +18,6 @@ class AnswerQuestion(BaseModel):
     )
 
 
-# Forcing citation in the model encourages grounded responses
 class ReviseAnswer(AnswerQuestion):
     """Revise your original answer to your question."""
 
